@@ -1,0 +1,302 @@
+{
+  "activities": [
+    {
+      "id": 1,
+      "user": {
+        "name": "User 1",
+        "avatar": "/images/avatars/user-1.png"
+      },
+      "action": "You have a bug that needs to be fixed.",
+      "timestamp": "Just now"
+    },
+    {
+      "id": 2,
+      "user": {
+        "name": "User 2",
+        "avatar": "/images/avatars/user-2.png"
+      },
+      "action": "Released a new version",
+      "timestamp": "59 minutes ago"
+    },
+    {
+      "id": 3,
+      "user": {
+        "name": "User 3",
+        "avatar": "/images/avatars/user-3.png"
+      },
+      "action": "Submitted a bug",
+      "timestamp": "12 hours ago"
+    },
+    {
+      "id": 4,
+      "user": {
+        "name": "User 4",
+        "avatar": "/images/avatars/user-4.png"
+      },
+      "action": "Modified A data in Page X",
+      "timestamp": "Today, 11:59 AM"
+    },
+    {
+      "id": 5,
+      "user": {
+        "name": "User 5",
+        "avatar": "/images/avatars/user-5.png"
+      },
+      "action": "Deleted a page in Project X",
+      "timestamp": "Feb 2, 2023"
+    }
+  ],
+  "contacts": [
+    {
+      "id": 1,
+      "name": "Natali Craig",
+      "avatar": "/images/contacts/natali-craig.png"
+    },
+    {
+      "id": 2,
+      "name": "Drew Cano",
+      "avatar": "/images/contacts/drew-cano.png"
+    },
+    {
+      "id": 3,
+      "name": "Orlando Diggs",
+      "avatar": "/images/contacts/orlando-diggs.png"
+    },
+    {
+      "id": 4,
+      "name": "Andi Lane",
+      "avatar": "/images/contacts/andi-lane.png"
+    },
+    {
+      "id": 5,
+      "name": "Kate Morrison",
+      "avatar": "/images/contacts/kate-morrison.png"
+    },
+    {
+      "id": 6,
+      "name": "Koray Okumus",
+      "avatar": "/images/contacts/koray-okumus.png"
+    }
+  ],
+  "notifications": [
+    {
+      "id": 1,
+      "message": "You have a bug that needs to be fixed.",
+      "timestamp": "Just now",
+      "type": "bug"
+    },
+    {
+      "id": 2,
+      "message": "New user registered",
+      "timestamp": "59 minutes ago",
+      "type": "user"
+    },
+    {
+      "id": 3,
+      "message": "You have a bug that needs to be fixed.",
+      "timestamp": "12 hours ago",
+      "type": "bug"
+    },
+    {
+      "id": 4,
+      "message": "Andi Lane subscribed to you",
+      "timestamp": "Today, 11:59 AM",
+      "type": "broadcast"
+    }
+  ],
+  "metrics": [
+    {
+      "id": 1,
+      "title": "Customers",
+      "type": "customers",
+      "value": 3781,
+      "change": "+11.01%",
+      "changeType": "increase"
+    },
+    {
+      "id": 2,
+      "title": "Orders",
+      "type": "orders",
+      "value": 1219,
+      "change": "-0.03%",
+      "changeType": "decrease"
+    },
+    {
+      "id": 3,
+      "title": "Revenue",
+      "type": "revenue",
+      "value": 695,
+      "change": "+15.03%",
+      "changeType": "increase",
+      "prefix": "$"
+    },
+    {
+      "id": 4,
+      "title": "Growth",
+      "type": "growth",
+      "value": 30.1,
+      "change": "+6.08%",
+      "changeType": "increase",
+      "suffix": "%"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "orderId": "CM9801",
+      "user": {
+        "name": "Natali Craig",
+        "avatar": "/images/contacts/natali-craig.png"
+      },
+      "project": "Landing Page",
+      "address": "Meadow Lane Oakland",
+      "date": "Just now",
+      "status": "progress"
+    },
+    {
+      "id": 2,
+      "orderId": "CM9802",
+      "user": {
+        "name": "Kate Morrison",
+        "avatar": "/images/contacts/kate-morrison.png"
+      },
+      "project": "CRM Admin pages",
+      "address": "Larry San Francisco",
+      "date": "A minute ago",
+      "status": "complete"
+    },
+    {
+      "id": 3,
+      "orderId": "CM9803",
+      "user": {
+        "name": "Drew Cano",
+        "avatar": "/images/contacts/drew-cano.png"
+      },
+      "project": "Client Project",
+      "address": "Bagwell Avenue Ocala",
+      "date": "1 hour ago",
+      "status": "pending"
+    },
+    {
+      "id": 4,
+      "orderId": "CM9804",
+      "user": {
+        "name": "Orlando Diggs",
+        "avatar": "/images/contacts/orlando-diggs.png"
+      },
+      "project": "Admin Dashboard",
+      "address": "Washburn Baton Rouge",
+      "date": "Yesterday",
+      "status": "approved"
+    },
+    {
+      "id": 5,
+      "orderId": "CM9805",
+      "user": {
+        "name": "Andi Lane",
+        "avatar": "/images/contacts/andi-lane.png"
+      },
+      "project": "App Landing Page",
+      "address": "Nest Lane Olivette",
+      "date": "Feb 2, 2023",
+      "status": "rejected"
+    },
+    {
+      "id": 6,
+      "orderId": "CM9801",
+      "user": {
+        "name": "Natali Craig",
+        "avatar": "/images/contacts/natali-craig.png"
+      },
+      "project": "Landing Page",
+      "address": "Meadow Lane Oakland",
+      "date": "Just now",
+      "status": "progress"
+    },
+    {
+      "id": 7,
+      "orderId": "CM9802",
+      "user": {
+        "name": "Kate Morrison",
+        "avatar": "/images/contacts/kate-morrison.png"
+      },
+      "project": "CRM Admin pages",
+      "address": "Larry San Francisco",
+      "date": "A minute ago",
+      "status": "complete"
+    },
+    {
+      "id": 8,
+      "orderId": "CM9803",
+      "user": {
+        "name": "Drew Cano",
+        "avatar": "/images/contacts/drew-cano.png"
+      },
+      "project": "Client Project",
+      "address": "Bagwell Avenue Ocala",
+      "date": "1 hour ago",
+      "status": "pending"
+    },
+    {
+      "id": 9,
+      "orderId": "CM9804",
+      "user": {
+        "name": "Orlando Diggs",
+        "avatar": "/images/contacts/orlando-diggs.png"
+      },
+      "project": "Admin Dashboard",
+      "address": "Washburn Baton Rouge",
+      "date": "Yesterday",
+      "status": "approved"
+    },
+    {
+      "id": 10,
+      "orderId": "CM9805",
+      "user": {
+        "name": "Andi Lane",
+        "avatar": "/images/contacts/andi-lane.png"
+      },
+      "project": "App Landing Page",
+      "address": "Nest Lane Olivette",
+      "date": "Feb 2, 2023",
+      "status": "rejected"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "ASOS Ridley High Waist",
+      "price": 79.49,
+      "quantity": 82,
+      "amount": 6518.18
+    },
+    {
+      "id": 2,
+      "name": "Marco Lightweight Shirt",
+      "price": 128.5,
+      "quantity": 37,
+      "amount": 4754.5
+    },
+    {
+      "id": 3,
+      "name": "Half Sleeve Shirt",
+      "price": 39.99,
+      "quantity": 64,
+      "amount": 2559.36
+    },
+    {
+      "id": 4,
+      "name": "Lightweight Jacket",
+      "price": 20,
+      "quantity": 184,
+      "amount": 3680
+    },
+    {
+      "id": 5,
+      "name": "Marco Shoes",
+      "price": 79.49,
+      "quantity": 64,
+      "amount": 1965.81
+    }
+  ]
+}
